@@ -1,0 +1,69 @@
+body{
+    background: #ddcfff;
+}
+.card {
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #9191f9;
+    box-shadow: 0 0 10px rgb(0,0,0);
+    border-radius:15px;
+    
+}
+.imgLogo {
+    position: relative;
+    border-radius: 30px;
+    top: -60px; /* ajustar los valores para mover la imagen */
+    width: 100px;
+    height: 100px;
+}
+
+.loginHeader b{
+    position: relative;
+    font-size: 20px;
+    top: -50px;
+}
+
+.loginBody {
+    top: -50px;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    font-size:25px;
+}
+.formEntradas{
+    width: 100%;
+    border: 0;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius:50px;
+    
+}
+
+#formLogin button{
+    font-size:20px;
+    padding: 7px 15% 7px 15%;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    background: #52599d;
+}
+#formLogin button:hover,#formLogin button:focus {
+    background: #21294d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  #formLogin button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+  }

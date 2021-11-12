@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+#contenedor{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+header{
+    height:80px;
+    border-bottom: 3px solid;
+}
+header #logo{
+    height: 80px;
+    margin-left: 20px;
+    float:left;
+}
+
+#c-botones{
+    width: 450px;
+    height: 80px;
+    float: right;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    color: rgb(54, 54, 54);
+    font-size: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    
+}
+.btnH{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#c-botones  button:hover{
+    background: rgb(173, 167, 167);
+}
+#c-botones button:active{
+    transform: translateY(2px);
+}
+.btnIniciarSesion{
+    border-radius: 10px;
+    margin-right: 40px;
+    border-color: rgb(8, 125, 155);
+}
+.btnUnirse{
+    border: 0px; 
+}
+
+#contenido{
+    width:800px;
+}
+
+
