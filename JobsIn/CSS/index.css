@@ -9,12 +9,13 @@ body{
     width: 800px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 header{
-    height:80px;
+    height:90px;
     border-bottom: 3px solid;
+    margin-bottom: 30px;
 }
 header #logo{
     height: 80px;
@@ -23,6 +24,7 @@ header #logo{
 }
 
 #c-botones{
+    margin-top:10px;
     width: 450px;
     height: 80px;
     float: right;
@@ -43,6 +45,7 @@ header #logo{
 }
 #c-botones  button:hover{
     background: rgb(173, 167, 167);
+    cursor: pointer;
 }
 #c-botones button:active{
     transform: translateY(2px);
@@ -58,6 +61,42 @@ header #logo{
 
 #contenido{
     width:800px;
+    margin-top: 20px;
+}
+#contenido h1{
+    font-size:50px;
+    margin-bottom: 10px;
+}
+#c-inputs{
+    width: 600px;
 }
 
+#c-inputs input{
+    width: 400px;
+    height:40px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.btnIngresar{
+    width: 380px;
+    height:40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: rgb(72, 122, 230);
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0px;
+}
+#contenido button:hover{
+    background: rgb(35, 85, 194);
+    cursor: pointer;
+}
+#contenido button:active{
+    transform: translateY(2px);
+}
 

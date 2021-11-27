@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#c-Cabezera{
+    width:100%;
+    height: 60px;
+    border: 1px solid;
+}
+#c-Cabezera .btnLogo{
+    width:60px;
+    height: 60px;
+    margin-left: 15px;
+    background-image: url(../Imagenes/LogoJobsIn.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0px;
+}
+#c-CabIzq{
+    float: left;
+    width: 450px;
+    height: 60px;
+    border-right: 1px solid;
+    margin-left: 50px;
+}
+#c-CabIzq button:hover{
+    cursor: pointer;
+}
+.in-Busqueda{
+    background-image: url(../Imagenes/Iconos/lupa1.png);
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    width: 300px;
+    padding-left: 28px;
+    height: 40px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 3px;
+    float: right;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.in-Busqueda input {
+    width: 100%;
+    font-size: 0.9em;
+    border:0px;
+  }
+  .in-Busqueda input:focus {
+    outline: none;
+  }
+
+#c-CabDere{
+    float: right;
+    width: 600px;
+    height:60px;
+    background: red;
+    margin-right: 100px;
+}
+.btn{
+    float: right;
+    width:100px;
+    height:60px;
+    margin-right: 20px;
+    text-align: center;
+    background-position: center top;
+    padding-top:35px
+}
+.btnInicio{
+    background-image: url(../Imagenes/Iconos/pagina-de-inicio.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 1px solid; 
+    
+    
+}
